@@ -2,9 +2,9 @@
 # Praktikum 1
 
 ### Membuat DDL Script berdasarkan skema ERD tersebut diatas dan Jalankan script DDL tersebut pada DBMS MySQL
-### Data Model Mapping
 
 #
+### Data Model Mapping
 1. Mahasiswa (nim, nama, jenis_kelamin, tgl_lahir, jalan, kota, kodepos, no_hp, kd_ds)
 2. Dosen (kd_ds, nama)
 3. Matakuliah (kd_mk, nama, sks)
