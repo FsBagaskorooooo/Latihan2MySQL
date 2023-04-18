@@ -8,8 +8,7 @@
 3. Matakuliah (kd_mk, nama, sks)
 4. JadwalMengajar (kd_ds, kd_mk, hari, jam, ruang)
 5. KRSMahasiswa (nim, kd_mk, kd_ds, semester, nilai)
-
-
+# 
 
 1. Membuat Database Latihan3
 
