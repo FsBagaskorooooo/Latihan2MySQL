@@ -148,21 +148,26 @@ Dan terakhir kita akan mencoba menampilkan data mahasiswa berurut berdasarkan na
 ```
 Penggunaan BETWEEN dan penggunaan operator >= dan <= pada umumnya memiliki hasil yang sama, yaitu menampilkan data yang memenuhi kondisi yang diberikan. Namun, ada beberapa perbedaan antara keduanya:
 
-* Penggunaan BETWEEN dapat membuat kode SQL lebih mudah dibaca, terutama jika kita ingin memeriksa rentang nilai. Sebaliknya, penggunaan operator >= dan <=    dapat membuat kode SQL terlihat lebih rumit.
+* Penggunaan BETWEEN dapat membuat kode SQL lebih mudah dibaca, terutama jika kita ingin memeriksa rentang nilai. Sebaliknya, penggunaan operator >= 
+  dan <=    dapat membuat kode SQL terlihat lebih rumit.
 
-* BETWEEN termasuk kedua nilai batas (termasuk nilai minimum dan maksimum), sedangkan operator >= dan <= hanya termasuk salah satu nilai batas. Dalam kasus    tanggal, contohnya, BETWEEN '1990-10-10' AND '1992-10-11' akan mencakup data yang lahir pada tanggal 10 Oktober 1990 dan 11 Oktober 1992. Namun, jika kita    menggunakan operator >= dan <=, maka data yang lahir pada tanggal 10 Oktober 1990 dan 11 Oktober 1992 tidak akan termasuk dalam hasil karena hanya            memenuhi salah satu nilai batas.
+* BETWEEN termasuk kedua nilai batas (termasuk nilai minimum dan maksimum), sedangkan operator >= dan <= hanya termasuk salah satu nilai batas. 
+  Dalam kasus tanggal, contohnya, BETWEEN '1990-10-10' AND '1992-10-11' akan mencakup data yang lahir pada tanggal 10 Oktober 1990 dan 11 Oktober 1992. 
+  Namun, jika kita menggunakan operator >= dan <=, maka data yang lahir pada tanggal 10 Oktober 1990 dan 11 Oktober 1992 tidak akan termasuk dalam hasil 
+  karena hanya memenuhi salah satu nilai batas.
 
-Secara keseluruhan, penggunaan BETWEEN dan penggunaan operator >= dan <= dapat digunakan secara bergantian tergantung pada kebutuhan kita. Namun, dalam beberapa kasus, salah satu dari keduanya dapat lebih disukai dari yang lain tergantung pada preferensi dan kebutuhan kita.
+Secara keseluruhan, penggunaan BETWEEN dan penggunaan operator >= dan <= dapat digunakan secara bergantian tergantung pada kebutuhan kita. 
+Namun, dalam beberapa kasus, salah satu dari keduanya dapat lebih disukai dari yang lain tergantung pada preferensi dan kebutuhan kita.
 ```
 
 2. Berikan Kesimpulan Anda
 
-```black
+```
 DML (Data Manipulation Language) adalah bahasa SQL yang digunakan untuk memanipulasi data dalam sebuah basis data. 
 DML digunakan untuk mengambil, menambahkan, memperbarui, dan menghapus data dalam tabel atau objek lain dalam basis data. 
 DML juga menjadi salah satu bagian penting dalam manajemen basis data, dan merupakan bagian dari SQL (Structured Query Language) 
 yang digunakan untuk mengelola basis data.
-
+```
 
 
 
