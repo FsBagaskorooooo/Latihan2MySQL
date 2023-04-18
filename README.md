@@ -10,6 +10,7 @@
 5. KRSMahasiswa (nim, kd_mk, kd_ds, semester, nilai)
 
 
+
 1. Membuat Database Latihan3
 
 Pertama kita buat terlebih dahulu databasenya dengan perintah seperti dibawah
