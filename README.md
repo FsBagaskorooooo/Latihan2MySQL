@@ -157,9 +157,8 @@ Secara keseluruhan, penggunaan BETWEEN dan penggunaan operator >= dan <= dapat d
 
 2. Berikan Kesimpulan Anda
 
-```
+```black
 DML (Data Manipulation Language) adalah bahasa SQL yang digunakan untuk memanipulasi data dalam sebuah basis data. DML digunakan untuk mengambil, menambahkan, memperbarui, dan menghapus data dalam tabel atau objek lain dalam basis data. DML juga menjadi salah satu bagian penting dalam manajemen basis data, dan merupakan bagian dari SQL (Structured Query Language) yang digunakan untuk mengelola basis data.
-```
 
 
 
