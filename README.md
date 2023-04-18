@@ -145,7 +145,6 @@ Dan terakhir kita akan mencoba menampilkan data mahasiswa berurut berdasarkan na
 
 1. Apa bedanya penggunaan BETWEEN dan penggunaan operator >= dan <= ? (misal: tgl_lahir BETWEEN '1990-10-10' AND '1992-10-11') (misal: tgl_lahir >= '1990-10-10' AND tgl_lahir <= '1992-10-11')
 
-```
 Penggunaan BETWEEN dan penggunaan operator >= dan <= pada umumnya memiliki hasil yang sama, yaitu menampilkan data yang memenuhi kondisi yang diberikan. Namun, ada beberapa perbedaan antara keduanya:
 
 * Penggunaan BETWEEN dapat membuat kode SQL lebih mudah dibaca, terutama jika kita ingin memeriksa rentang nilai. Sebaliknya, penggunaan operator >= 
@@ -158,16 +157,14 @@ Penggunaan BETWEEN dan penggunaan operator >= dan <= pada umumnya memiliki hasil
 
 Secara keseluruhan, penggunaan BETWEEN dan penggunaan operator >= dan <= dapat digunakan secara bergantian tergantung pada kebutuhan kita. 
 Namun, dalam beberapa kasus, salah satu dari keduanya dapat lebih disukai dari yang lain tergantung pada preferensi dan kebutuhan kita.
-```
+
 
 2. Berikan Kesimpulan Anda
 
-```
 DML (Data Manipulation Language) adalah bahasa SQL yang digunakan untuk memanipulasi data dalam sebuah basis data. 
 DML digunakan untuk mengambil, menambahkan, memperbarui, dan menghapus data dalam tabel atau objek lain dalam basis data. 
 DML juga menjadi salah satu bagian penting dalam manajemen basis data, dan merupakan bagian dari SQL (Structured Query Language) 
 yang digunakan untuk mengelola basis data.
-```
 
 
 
